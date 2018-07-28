@@ -27,9 +27,9 @@ DFS
 ```
 ## 2. lizard.cpp
 - "lizard.cpp" will take an input file that has an arrangement of trees and will output a possible arrangement of lizards such that no baby lizard can eat another one. My program will find the solution for lizard position using 3 different algorithms
-- Breadth-first search (BFS) 
-- Depth-first search (DFS)
-- Simulated annealing (SA)
+  * Breadth-first search (BFS) 
+  * Depth-first search (DFS)
+  * Simulated annealing (SA)
 
 ## 3. output.txt
 - "output.txt" will be formatted as follows:<br />
