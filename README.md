@@ -7,10 +7,8 @@ For each baby lizard, you can place them in one spot on a grid. From there, they
 # Code
 - "lizard.cpp" reads a text file called "input.txt" that contains a problem definition
 - "input.txt" file will be formatted as follws:
-## First line: 
-instruction of which algorithm to use: BFS, DFS or SA
-## Second line: 
-strictly positive 32-bit integer n, the width and height of the square nursery
+>> First line: instruction of which algorithm to use: BFS, DFS or SA
+>> Second line: strictly positive 32-bit integer n, the width and height of the square nursery
 ## Third line: 
 strictly positive 32-bit integer p, the number of baby lizards
 ## Next n lines: 
