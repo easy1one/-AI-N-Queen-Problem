@@ -13,7 +13,7 @@ For each baby lizard, you can place them in one spot on a grid. From there, they
 > Next n lines: the n x n nursery, one file line per nursery row (to show you where the trees are). It will have a 0 where there is nothing, and a 2 where there is a tree.<br />
 - __For example,__<br />
 ```
-DFS<br />
+DFS
 8<br />
 8 <br />
 00000000<br />
@@ -25,7 +25,6 @@ DFS<br />
 00000000<br />
 00000000<br />
 ```
-<br />
 - Then, it would write a file "output.txt" as a possible lizard arrangements
 - "output.txt" will be formatted as follows:<br />
 > First line: OK or FAIL, indicating whether a solution was found or not. If FAIL, any following lines are ignored.<br />
