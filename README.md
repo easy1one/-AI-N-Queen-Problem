@@ -7,10 +7,10 @@ For each baby lizard, you can place them in one spot on a grid. From there, they
 # Code
 - "lizard.cpp" reads a text file called "input.txt" that contains a problem definition
 - "input.txt" file will be formatted as follws:
-> First line: instruction of which algorithm to use: BFS, DFS or SA<br />
-> Second line: strictly positive 32-bit integer n, the width and height of the square nursery<br />
-> Third line: strictly positive 32-bit integer p, the number of baby lizards<br />
-> Next n lines: the n x n nursery, one file line per nursery row (to show you where the trees are). It will have a 0 where there is nothing, and a 2 where there is a tree.<br />
+> __First line:__ instruction of which algorithm to use: BFS, DFS or SA<br />
+> __Second line:__ strictly positive 32-bit integer n, the width and height of the square nursery<br />
+> __Third line:__ strictly positive 32-bit integer p, the number of baby lizards<br />
+> __Next n lines:__ the n x n nursery, one file line per nursery row (to show you where the trees are). It will have a 0 where there is nothing, and a 2 where there is a tree.<br />
 - __For example,__<br />
 ```
 DFS
@@ -27,8 +27,8 @@ DFS
 ```
 - Then, it would write a file "output.txt" as a possible lizard arrangements
 - "output.txt" will be formatted as follows:<br />
-> First line: OK or FAIL, indicating whether a solution was found or not. If FAIL, any following lines are ignored.<br />
-> Next n lines: the n x n nursery, one line in the file per nursery row, including the baby lizards and trees. It will have a 0 where there is nothing, a 1 where you placed a baby lizard, and a 2 where there is a tree.<br />
+> __First line:__ OK or FAIL, indicating whether a solution was found or not. If FAIL, any following lines are ignored.<br />
+> __Next n lines:__ the n x n nursery, one line in the file per nursery row, including the baby lizards and trees. It will have a 0 where there is nothing, a 1 where you placed a baby lizard, and a 2 where there is a tree.<br />
 - __For example,__<br />
 ```
 OK<br />
