@@ -4,8 +4,8 @@ Lizard arrangement problem like upgrade N-queen problem by using 3 different sea
 # Highlevel Description
 For each baby lizard, you can place them in one spot on a grid. From there, they can shoot out their tongue up, down, left, right and diagonally as well. Their tongues are very long and can reach to the edge of the nursery from any location.
 
-# Code
-- "lizard.cpp" reads a text file called "input.txt" that contains a problem definition
+# Code :
+## 1. input.txt
 - "input.txt" file will be formatted as follws:
 > __First line:__ instruction of which algorithm to use: BFS, DFS or SA<br />
 > __Second line:__ strictly positive 32-bit integer n, the width and height of the square nursery<br />
@@ -25,7 +25,13 @@ DFS
 00000000
 00000000
 ```
-- Then, it would write a file "output.txt" as a possible lizard arrangements
+## 2. lizard.cpp
+- "lizard.cpp" will take an input file that has an arrangement of trees and will output a possible arrangement of lizards such that no baby lizard can eat another one. My program will find the solution for lizard position using 3 different algorithms
+- Breadth-first search (BFS) 
+- Depth-first search (DFS)
+- Simulated annealing (SA)
+
+## 3. output.txt
 - "output.txt" will be formatted as follows:<br />
 > __First line:__ OK or FAIL, indicating whether a solution was found or not. If FAIL, any following lines are ignored.<br />
 > __Next n lines:__ the n x n nursery, one line in the file per nursery row, including the baby lizards and trees. It will have a 0 where there is nothing, a 1 where you placed a baby lizard, and a 2 where there is a tree.<br />
