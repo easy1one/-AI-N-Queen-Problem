@@ -1,6 +1,5 @@
 # [AI] N-Lizard-Problem
-Lizard arrangement problem like upgrade N-queen problem by using 3 different search algorithms; BFS, DFS, SA
-
+Lizard arrangement problem like upgrade N-queen problem by using 3 different search algorithms; Breadth-first search (BFS), Depth-first search (DFS), Simulated annealing(SA)
 
 ## High level Description
 I am a zookeeper in the reptile house. One of your rare South Pacific Tufted Wizzo lizards (Tufticus Wizzocus) has just had several babies. __My job is to find a place to put each baby lizard in a nursery.__ However, there is a catch, the baby lizards have very long tongues. A baby lizard can shoot out its tongue and eat any other baby lizard before you have time to save it. As such, I want to make sure that __no baby lizard can eat another baby lizard in the nursery.__ For each baby lizard, you can place them in one spot on a grid. From there, they can shoot out their tongue __up, down, left, right and diagonally as well.__ Their tongues are very long and can reach to the edge of the nursery from any location.
