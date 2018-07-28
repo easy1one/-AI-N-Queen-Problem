@@ -30,6 +30,7 @@ DFS
   * Breadth-first search (BFS) 
   * Depth-first search (DFS)
   * Simulated annealing (SA)
+- constraints: 5 min time limit for SA algorithm
 
 ## 3. output.txt
 - "output.txt" will be formatted as follows:<br />
