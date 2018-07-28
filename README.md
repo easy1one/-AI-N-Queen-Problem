@@ -28,8 +28,17 @@ DFS
 ## 2. lizard.cpp
 - "lizard.cpp" will take an input file that has an arrangement of trees and will output a possible arrangement of lizards such that no baby lizard can eat another one. My program will find the solution for lizard position using 3 different algorithms
   * Breadth-first search (BFS) 
+  ```
+  vector<int> BFS(queue<Node*> myque, int n, int p, vector<int>tree_pos, int numOfTree)
+  ```
   * Depth-first search (DFS)
+  ```
+  vector<int> DFS(stack<Node*> mystack, int n, int p, vector<int>tree_pos, int numOfTree)
+  ```
   * Simulated annealing (SA)
+  ```
+  vector<int> SA(int n, int p, vector<int> tree_pos, int numOfempty, Node* root)
+  ```
 - constraints: 5 min time limit for SA algorithm
 
 ## 3. output.txt
