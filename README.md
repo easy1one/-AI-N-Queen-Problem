@@ -14,16 +14,16 @@ For each baby lizard, you can place them in one spot on a grid. From there, they
 - __For example,__<br />
 ```
 DFS
-8<br />
-8 <br />
-00000000<br />
-00000000<br />
-00000000<br />
-00002000<br />
-00000000<br />
-00000200<br />
-00000000<br />
-00000000<br />
+8
+8
+00000000
+00000000
+00000000
+00002000
+00000000
+00000200
+00000000
+00000000
 ```
 - Then, it would write a file "output.txt" as a possible lizard arrangements
 - "output.txt" will be formatted as follows:<br />
@@ -31,13 +31,13 @@ DFS
 > __Next n lines:__ the n x n nursery, one line in the file per nursery row, including the baby lizards and trees. It will have a 0 where there is nothing, a 1 where you placed a baby lizard, and a 2 where there is a tree.<br />
 - __For example,__<br />
 ```
-OK<br />
-00000100<br />
-10000000<br />
-00001000<br />
-01002001<br />
-00000000<br />
-00100200<br />
-00000010<br />
-00010000<br />
+OK
+00000100
+10000000
+00001000
+01002001
+00000000
+00100200
+00000010
+00010000
 ```
